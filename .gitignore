@@ -1,0 +1,93 @@
+# Node.js
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# Output of 'npm dedupe'
+.npm-dedupe.yaml
+
+# Yarn
+yarn-error.log
+.pnp.*
+yarn-debug.log*
+
+# Vite
+dist/
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# WebStorm workspace files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# User-specific files
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnp.*
+.env
+
+# Test Files
+__tests__/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Nuxt.js
+.nuxt/
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+.cache/
+public/
+
+# Parcel
+.cache/
+dist/
+out/
+*.log
+
+# Babel
+dist/
+
+# Rollup
+dist/
+.build/
+
+# Grunt
+node_modules/
+dist/
+
+# Local Jest coverage directory
+coverage/
+
+# Protractor
+e2e/*.js
+e2e/*.ts
+
+# Puppeteer
+puppeteer/
+
+# VS Code directories
+.vscode-test/
+.vscode-test-*

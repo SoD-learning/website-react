@@ -1,0 +1,17 @@
+<!DOCTYPE rooms [
+<!ELEMENT rooms (room+)>
+<!ELEMENT room (room_number, capacity)>
+<!ELEMENT room_number (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+<!ATTLIST room action (add|update) #REQUIRED>
+]>
+<rooms>
+  <room action="add">
+    <room_number>121</room_number>
+    <capacity>40</capacity>
+  </room>
+  <room action="update">
+    <room_number>102</room_number>
+    <capacity>13</capacity>
+  </room>
+</rooms>

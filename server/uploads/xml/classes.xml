@@ -1,0 +1,36 @@
+<!DOCTYPE classes [
+  <!ELEMENT classes (class+)>
+<!ELEMENT class (title, description, date, start_time, end_time, trainer, room, attendees)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT start_time (#PCDATA)>
+<!ELEMENT end_time (#PCDATA)>
+<!ELEMENT trainer (#PCDATA)>
+<!ELEMENT room (#PCDATA)>
+<!ELEMENT attendees (#PCDATA)>
+<!ATTLIST class
+            action (add|update) #REQUIRED>
+]>
+<classes>
+  <class action="add">
+    <title>Brand New Class via XML</title>
+    <description>No one knows!</description>
+    <date>2023-05-11</date>
+    <start_time>11:00</start_time>
+    <end_time>12:00</end_time>
+    <trainer>1</trainer>
+    <room>101</room>
+    <attendees>20</attendees>
+  </class>
+  <class action="update">
+    <title>Zumba</title>
+    <description>Zumba updated via XML</description>
+    <date>2023-05-02</date>
+    <start_time>15:00</start_time>
+    <end_time>16:00</end_time>
+    <trainer>2</trainer>
+    <room>122</room>
+    <attendees>20</attendees>
+  </class>
+</classes>
