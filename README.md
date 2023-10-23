@@ -28,14 +28,14 @@ High Street Gym required a website that could handle class bookings, trainer all
 
 ## Technologies Used
 
-- **Frontend:** React was utilized for creating interactive UIs.
+- **Frontend:** React was utilised for creating interactive UIs.
 - **Backend:** An appropriate backend technology (e.g., Node.js) was chosen for server-side operations.
 - **Database:** MySQL was used for data storage and management, storing information about users, classes, trainers, and blog posts.
 - **Authentication:** Secure authentication practices were implemented to protect user data.
 
 ## Database Design
 
-A well-normalized relational database was designed to store information about users, classes, activities, and trainers efficiently.
+A well-normalised relational database was designed to store information about users, classes, activities, and trainers efficiently.
 
 ## XML Integration
 
@@ -48,7 +48,7 @@ The website and XML documents were thoroughly tested and debugged across differe
 ## Security Measures
 
 - **Authentication:** Secure login functionality was implemented.
-- **Input Sanitisation:** All inputs were sanitized to prevent SQL injection and other malicious attacks.
+- **Input Sanitisation:** All inputs were sanitised to prevent SQL injection and other malicious attacks.
 - **Internet Protocols:** Secure internet protocols were enforced to ensure data privacy and integrity.
 
 ## Cross-Browser Compatibility
